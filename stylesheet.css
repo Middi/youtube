@@ -1,7 +1,6 @@
 * {
     margin: 0 0 0 0;
     padding: 0;
-    font-family: 'Source Code Pro', monospace;
 }
 
 a {
@@ -14,5 +13,67 @@ a {
 }
 
 body {
-    background-color: rgba(225, 65, 79, 1);
+    background-color: #f1f1f1;
+}
+
+header {
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    min-width: 0;
+    padding-bottom: 8px;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+}
+
+.nav-left {
+    display: inline-block;
+}
+
+i {
+    display: inline-block;
+}
+
+.fa-bars {
+    color: #aaa;
+    vertical-align: middle;
+    padding: 0 10px 0 10px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+form {
+    display: inline-block;
+    margin: 0;
+    line-height: 30px;
+}
+
+input[type=text] {
+    width: 582px;
+    margin: 0 0 0 90px;
+    font-size: 14px;
+    height: 29px;
+    line-height: 30px;
+
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background-color: #f0f0f0;
+    font-family: fontawesome;
+    font-size: 8px;
+    color: #aaa;
+    margin: 0 0 0 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+
 }
